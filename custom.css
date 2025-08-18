@@ -1,0 +1,94 @@
+:root {
+    --clr-dark-a0: #000000;
+    --clr-light-a0: #ffffff;
+
+    --clr-primary-a0: #fc5d08;
+    --clr-primary-a10: #ff722e;
+    --clr-primary-a20: #ff8549;
+    --clr-primary-a30: #ff9762;
+    --clr-primary-a40: #ffa97b;
+    --clr-primary-a50: #ffba95;
+
+    --clr-surface-a0: #121212;
+    --clr-surface-a10: #282828;
+    --clr-surface-a20: #3f3f3f;
+    --clr-surface-a30: #575757;
+    --clr-surface-a40: #717171;
+    --clr-surface-a50: #8b8b8b;
+
+    --clr-surface-tonal-a0: #281a14;
+    --clr-surface-tonal-a10: #3d2f29;
+    --clr-surface-tonal-a20: #534540;
+    --clr-surface-tonal-a30: #695d58;
+    --clr-surface-tonal-a40: #817672;
+    --clr-surface-tonal-a50: #99908c;
+
+    /* Map to Bootstrap colors */
+    --bs-body-bg: var(--clr-surface-a0);
+    --bs-body-color: var(--clr-light-a0);
+    --bs-primary: var(--clr-primary-a0);
+    --bs-secondary: var(--clr-surface-a30);
+    --bs-dark: var(--clr-dark-a0);
+    --bs-light: var(--clr-light-a0);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+    color: var(--bs-light) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--clr-primary-a10) !important;
+    border-color: var(--clr-primary-a10) !important;
+}
+
+/* Cards */
+.card {
+    background-color: var(--clr-surface-a10) !important;
+    color: var(--bs-body-color) !important;
+    border-color: var(--clr-surface-a30) !important;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--clr-surface-a10) !important;
+}
+
+.navbar .nav-link {
+    color: var(--bs-light) !important;
+}
+
+.navbar .nav-link:hover {
+    color: var(--bs-primary) !important;
+}
+
+/* Tables */
+.table {
+    color: var(--bs-light) !important;
+    background-color: var(--clr-surface-a0) !important;
+}
+
+.table th,
+.table td {
+    border-color: var(--clr-surface-a30) !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: var(--clr-surface-a10) !important;
+}
+
+/* Forms */
+.form-control {
+    background-color: var(--clr-surface-a10) !important;
+    border-color: var(--clr-surface-a30) !important;
+    color: var(--bs-light) !important;
+}
+
+.form-control:focus {
+    background-color: var(--clr-surface-a20) !important;
+    color: var(--bs-light) !important;
+    border-color: var(--bs-primary) !important;
+    box-shadow: 0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.25) !important;
+}
