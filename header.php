@@ -1,7 +1,7 @@
 <?php
-include("header_open.php");
+include("header_open.html");
 
 
 
-include("header_close.php");
+include("header_close.html");
 ?>

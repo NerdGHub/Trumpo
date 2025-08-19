@@ -7,7 +7,7 @@
     <title>Trumpo</title>
 
     <?php
-    include("links.php");
+    include("links.html");
     ?>
 
 </head>
