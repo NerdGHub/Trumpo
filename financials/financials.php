@@ -26,6 +26,12 @@
     ?>
 
     <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Financials</h1>
+            </div>
+
+        </div>
         <div class="row my-2">
             <div class="col-md-12 my-2">
                 <h1>Overview:</h1>
@@ -35,7 +41,7 @@
             </div>
         </div>
 
-        <div class="row my-2 my-2">
+        <div class="row my-2">
             <div class="col-md-12">
                 <h1>Bitcoin Treasury Strategy:</h1>
                 <p>Trumpo.com follows a Michael Saylor-inspired Bitcoin-backed treasury model. We use low-cost debt
@@ -44,7 +50,7 @@
             </div>
         </div>
 
-        <div class="row my-2 my-2">
+        <div class="row my-2">
             <div class="col-md-12">
                 <h1>This strategy supports:</h1>
                 <ul>
@@ -55,7 +61,7 @@
             </div>
         </div>
 
-        <div class="row my-2 my-2">
+        <div class="row my-2">
             <div class="col-md-12">
                 <h1>Perpetual 3% Loan Model:</h1>
                 <p>We offer ISA and pension investors access to a 3% per annum perpetual P2P loan product via JustUs.
@@ -68,7 +74,7 @@
             </div>
         </div>
 
-        <div class="row my-2 my-2">
+        <div class="row my-2">
             <div class="col-md-12">
                 <h1>Performance Reports:</h1>
                 <p>Download links:</p>

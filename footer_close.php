@@ -66,7 +66,7 @@
             <p class="mb-0 small">&copy; 2025 Trumpo.com. All rights reserved.</p>
         </div>
         <div class="col-md-6 text-md-end">
-            <span class="small text-muted">Secure • Verified • Trusted</span>
+            <span class="small">Secure • Verified • Trusted</span>
         </div>
     </div>
 </div>

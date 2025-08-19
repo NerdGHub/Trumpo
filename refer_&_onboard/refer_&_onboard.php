@@ -24,29 +24,35 @@
             <div class="col-12 text-center mb-4">
                 <h1>Refer & Onboard</h1>
             </div>
-            <div class="col-md-6">
-                <h2>
-                    What you refer:
-                </h2>
-                <ul>
-                    <li>Fintech startups</li>
-                    <li>P2P platforms</li>
-                    <li>Legal, tax, or compliance professionals</li>
-                    <li>ISA & pension investors</li>
-                </ul>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">What you refer:</h2>
+                        <ul>
+                            <li>Fintech startups</li>
+                            <li>P2P platforms</li>
+                            <li>Legal, tax, or compliance professionals</li>
+                            <li>ISA & pension investors</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-md-6">
-                <h2>
-                    How to track success:
-                </h2>
-                <ul>
-                    <li>Every verified sign-up or investment earns a reward</li>
-                    <li>Transparent dashboard</li>
-                    <li>Referral trees for multi-tier relationships (network-style)</li>
-                </ul>
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">How to track success:</h2>
+                        <ul>
+                            <li>Every verified sign-up or investment earns a reward</li>
+                            <li>Transparent dashboard</li>
+                            <li>Referral trees for multi-tier relationships (network-style)</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-
         </div>
 
     </div>

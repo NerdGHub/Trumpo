@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar shadow-sm navbar-expand-md fixed-top navbar-dark">
+    <nav class="navbar shadow-sm navbar-expand-lg fixed-top navbar-dark">
         <div class="container">
 
             <!-- Left -->
@@ -43,11 +43,11 @@
                     </li>
 
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="../about/about_index.php">FAQs</a>
+                        <a class="nav-link" href="../FAQs/FAQs.php">FAQs</a>
                     </li>
 
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="../about/about_index.php">Contact</a>
+                        <a class="nav-link" href="../contact/contact_form.php">Contact</a>
                     </li>
 
                 </ul>

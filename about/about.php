@@ -20,6 +20,12 @@
     ?>
 
     <div class="container mt-5 pt-5">
+        <div class="row mb-4">
+            <div class="col-md-12 text-center">
+                <h1>About</h1>
+            </div>
+
+        </div>
         <div class="row my-2">
             <div class="col-6">
                 <div class="card h-100">
@@ -29,9 +35,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row my-2">
-            <div class="col-6 ms-auto">
+            <div class="col-6">
                 <div class="card h-100">
                     <div class="card-body">
                         <h2 class="card-title">Vision:</h2>
@@ -39,6 +43,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="row my-2">
+
         </div>
 
     </div>
