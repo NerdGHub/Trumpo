@@ -21,7 +21,7 @@
 
     <div class="container mt-5 pt-5">
         <div class="row justify-content-center">
-            <div class="col-md-8 col-lg-6">
+            <div class="col-lg-6">
                 <div class="card">
                     <div class="card-body">
                         <h3 class="card-title mb-3">Contact Us</h3>

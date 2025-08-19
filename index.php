@@ -20,7 +20,7 @@
     ?>
 
     <div class="container mt-5 pt-5">
-        <div class="row mb-4">
+        <div class="row py-5">
             <div class="col-md-12 text-center">
                 <h1>Trumpo.com – Powering Trusted Referrals in Fintech</h1>
                 <p>Earn BIPS by referring clients to verified platforms, professionals, and funds. Built for affiliates,
@@ -28,14 +28,14 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row pb-5">
             <div class="col-12">
                 <div class="row justify-content-center m-2">
-                    <div class="col-12 col-md-6 col-lg-4 mb-2">
+                    <div class="col-md-4 mb-2">
                         <a class="btn btn-primary w-100">Join the Network</a>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-2">
-                        <a class="btn btn-primary w-100">Learn How It Works</a>
+                    <div class="col-md-4 mb-2">
+                        <a class="btn btn-primary w-100" href="how_it_works/how_it_works.php">Learn How It Works</a>
                     </div>
                 </div>
             </div>

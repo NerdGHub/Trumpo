@@ -64,21 +64,6 @@
     color: var(--bs-primary) !important;
 }
 
-/* Tables */
-.table {
-    color: var(--bs-light) !important;
-    background-color: var(--clr-surface-a0) !important;
-}
-
-.table th,
-.table td {
-    border-color: var(--clr-surface-a30) !important;
-}
-
-.table-striped>tbody>tr:nth-of-type(odd) {
-    background-color: var(--clr-surface-a10) !important;
-}
-
 /* Forms */
 .form-control {
     background-color: var(--clr-surface-a10) !important;

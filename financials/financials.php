@@ -16,63 +16,80 @@
 
 <body>
     <?php
-    include("../header_open.php");
-    ?>
-
-    <!-- extend nav here for id's -->
-
-    <?php
-    include("../header_close.php");
+    include("../header.php");
     ?>
 
     <div class="container mt-5 pt-5">
+
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-12 text-center mb-4">
                 <h1>Financials</h1>
             </div>
-
         </div>
-        <div class="row my-2">
-            <div class="col-md-12 my-2">
-                <h1>Overview:</h1>
-                <p>Trumpo.com operates a transparent financial model with key on-chain and off-chain reporting. Our
-                    ecosystem includes direct exposure to Bitcoin through a long-term treasury strategy, income from P2P
-                    lending, and a rewards-based utility token system.</p>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Overview</h2>
+                        <p class="card-text">Trumpo.com operates a transparent financial model with key on-chain and
+                            off-chain reporting. Our
+                            ecosystem includes direct exposure to Bitcoin through a long-term treasury strategy, income
+                            from
+                            P2P
+                            lending, and a rewards-based utility token system.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Bitcoin Treasury Strategy:</h2>
+                        <p class="card-text">Trumpo.com follows a Michael Saylor-inspired Bitcoin-backed treasury model.
+                            We
+                            use low-cost debt
+                            financing (3% perpetual loans) to acquire and hold BTC for long-term value preservation and
+                            growth.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="row my-2">
-            <div class="col-md-12">
-                <h1>Bitcoin Treasury Strategy:</h1>
-                <p>Trumpo.com follows a Michael Saylor-inspired Bitcoin-backed treasury model. We use low-cost debt
-                    financing (3% perpetual loans) to acquire and hold BTC for long-term value preservation and growth.
-                </p>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">This strategy supports:</h2>
+                        <ul class="card-text">
+                            <li>Inflation protection</li>
+                            <li>Yield via performance-linked structures</li>
+                            <li>BTC dividends or potential BIPS airdrops</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Perpetual 3% Loan Model:</h2>
+                        <div class="card-text">
+                            <p>We offer ISA and pension investors access to a 3% per annum perpetual P2P loan product
+                                via JustUs.
+                            </p>
+                            <strong>Structured performance-based tiers can increase or decrease yield based on:</strong>
+                            <ul>
+                                <li>25%, 50%, and 75% uplift/downlift based on market metrics</li>
+                                <li>BTC price triggers and lending activity benchmarks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <div class="row my-2">
-            <div class="col-md-12">
-                <h1>This strategy supports:</h1>
-                <ul>
-                    <li>Inflation protection</li>
-                    <li>Yield via performance-linked structures</li>
-                    <li>BTC dividends or potential BIPS airdrops</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row my-2">
-            <div class="col-md-12">
-                <h1>Perpetual 3% Loan Model:</h1>
-                <p>We offer ISA and pension investors access to a 3% per annum perpetual P2P loan product via JustUs.
-                </p>
-                <strong>Structured performance-based tiers can increase or decrease yield based on:</strong>
-                <ul>
-                    <li>25%, 50%, and 75% uplift/downlift based on market metrics</li>
-                    <li>BTC price triggers and lending activity benchmarks</li>
-                </ul>
-            </div>
-        </div>
 
         <div class="row my-2">
             <div class="col-md-12">
