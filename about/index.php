@@ -42,16 +42,12 @@
                 </div>
             </div>
         </div>
-        <div class="row my-2">
 
-        </div>
+        <?php
+        include("../footer.php");
+        ?>
 
     </div>
-    </div>
-
-    <?php
-    include("../footer.php");
-    ?>
 
 
 

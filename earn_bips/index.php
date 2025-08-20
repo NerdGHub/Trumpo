@@ -27,20 +27,19 @@
         </div>
 
         <div class="row my-2">
-            <ul>
-                <li>BIPS = digital credits, like gas fees in blockchain.</li>
-                <li>Convert BIPS into discounts, services, or future token utility.</li>
-                <li>Tiered reward structure depending on partner platform and volume.</li>
-            </ul>
+            <div class="col-md-12 mb-4">
+                <ul>
+                    <li>BIPS = digital credits, like gas fees in blockchain.</li>
+                    <li>Convert BIPS into discounts, services, or future token utility.</li>
+                    <li>Tiered reward structure depending on partner platform and volume.</li>
+                </ul>
+            </div>
         </div>
-
     </div>
 
     <?php
     include("../footer.php");
     ?>
-
-
 
 </body>
 
