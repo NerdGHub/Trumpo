@@ -48,15 +48,15 @@
 
 /* Cards */
 .card {
-    background-color: var(--clr-surface-a10) !important;
-    color: var(--bs-body-color) !important;
-    border-color: var(--clr-surface-a30) !important;
+    background-color: var(--bs-body-bg) !important;
+    border-color: var(--bs-primary) !important;
 }
 
 
 /* Navbar */
 .navbar {
-    background-color: var(--clr-surface-a10) !important;
+    background-color: var(--bs-body-bg) !important;
+    border-bottom: 1px solid var(--bs-light) !important;
 }
 
 .navbar .nav-link {
@@ -78,7 +78,6 @@
 .form-control:focus,
 .form-check-input:focus {
     border-color: var(--bs-light) !important;
-    color: var(--bs-primary) !important;
     box-shadow: none !important;
 }
 
@@ -119,10 +118,43 @@
     font-size: 5rem;
 }
 
+.large-image {
+    width: 5rem !important;
+    /* Same as font-size of icons */
+    height: 5rem !important;
+    max-width: 5rem !important;
+}
+
+.large-image-container {
+    width: 182px;
+    height: 120px;
+
+}
+
+
 .orange {
     color: var(--bs-primary);
 }
 
+#side-nav .nav-link {
+    border-bottom: 1px solid var(--clr-surface-a10);
+    padding: 10px 0;
+}
+
+#side-nav {
+    position: sticky;
+    top: 100px;
+    /* Adjust this value based on your navbar height */
+    height: fit-content;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+}
+
+
+.table th,
+.table td {
+    color: var(--bs-light) !important;
+}
 
 /* Footer */
 footer a {
