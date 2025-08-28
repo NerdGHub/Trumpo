@@ -10,16 +10,18 @@
         content="Trumpo Terms & Conditions - Terms of use for our website and referral services connecting you with financial service providers.">
     <meta name="author" content="Trumpo Team">
     <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../custom.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar shadow-sm navbar-expand-lg fixed-top navbar-dark">
+        <nav class="navbar shadow-sm navbar-expand-md fixed-top navbar-dark">
             <div class="container">
                 <!-- Left -->
                 <div class="d-flex align-items-center">
@@ -29,37 +31,47 @@
                 </div>
 
                 <!-- Toggler for small screens -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
                     aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon text-light"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <!-- Collapsible content -->
                 <div class="collapse navbar-collapse" id="mainNavbar">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto align-items-start align-items-md-center">
                         <li class="nav-item px-2">
                             <a class="nav-link" href="../index.html">Home</a>
                         </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="../how_it_works/index.html">How It Works</a>
+
+                        <!-- Platform Dropdown -->
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="platformDropdown" role="button" 
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                                Platform
+                            </a>
+                            <ul class="dropdown-menu border-1 border-md-0" aria-labelledby="platformDropdown">
+                                <li><a class="dropdown-item" href="../how_it_works/index.html">How It Works</a></li>
+                                <li><a class="dropdown-item" href="../earn_BiPS/index.html">Earn BiPS</a></li>
+                                <li><a class="dropdown-item" href="../refer_and_onboard/index.html">Refer & Onboard</a></li>
+                                <li><a class="dropdown-item" href="../financials/index.html">Financials</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="../earn_bips/index.html">Earn BIPS</a>
+
+                        <!-- Support Dropdown -->
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="supportDropdown" role="button" 
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                                Support
+                            </a>
+                            <ul class="dropdown-menu border-1 border-md-0" aria-labelledby="supportDropdown">
+                                <li><a class="dropdown-item" href="../about/index.html">About</a></li>
+                                <li><a class="dropdown-item" href="../faq/index.html">FAQs</a></li>
+                                <li><a class="dropdown-item" href="../contact/index.html">Contact</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="../refer_and_onboard/index.html">Refer & Onboard</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="../financials/index.html">Financials</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="../about/index.html">About</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="../faq/index.html">FAQs</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="../contact/index.html">Contact</a>
+
+                        <li class="nav-item m-2">
+                            <a class="btn btn-primary rounded-pill px-4" href="https://trumpo.com">Login</a>
                         </li>
                     </ul>
                 </div>
@@ -76,7 +88,7 @@
         </div>
 
         <div class="row my-5">
-            <div class="col-md-3" id="side-nav">
+            <div class="col-md-3 mb-5" id="side-nav">
                 <div class="nav-link">
                     <h2 class="orange">Terms & Conditions</h2>
                 </div>
@@ -209,9 +221,9 @@
                 <!-- Company Info -->
                 <div class="col-lg-6 col-md-6 mb-4">
                     <h5 class="fw-bold">Trumpo.com</h5>
-                    <p>Earn BIPS by referring clients to verified platforms, professionals, and funds. Built for
-                        affiliates,
-                        advisors, and digital pioneers.</p>
+                    <p>Be rewarded in BIPS for referring clients to verified platforms, professionals, and funds. Built for
+                        affiliates, advisors, and digital pioneers.</p>
+					<p>This website is for <strong>professional use only</strong>.</p>	
                     <div class="d-flex gap-3 justify">
                         <a href="https://www.linkedin.com/company/trumpo-matrix/" class="bi bi-linkedin text-light text-decoration-none fs-1"></a>
                         <a href="https://x.com/trumpowhale" class="bi bi-twitter-x text-light text-decoration-none fs-1"></a>
@@ -222,10 +234,13 @@
                 <div class="col-lg-2 col-md-6 mb-4">
                     <h6 class="fw-bold">Platform</h6>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-light text-decoration-none">How it Works</a></li>
-                        <li><a href="#" class="text-light text-decoration-none">Earn BIPS</a></li>
-                        <li><a href="#" class="text-light text-decoration-none">Verified Partners</a></li>
-                        <li><a href="#" class="text-light text-decoration-none">Pricing</a></li>
+                        <li><a href="../how_it_works/index.html" class="text-light text-decoration-none">How it Works</a></li>
+                        <li><a href="../earn_BiPS/index.html" class="text-light text-decoration-none">Earn BiPS</a></li>
+                        <li><a href="../refer_and_onboard/index.html" class="text-light text-decoration-none">Refer & Onboard</a></li>
+                        <li><a href="../financials/index.html" class="text-light text-decoration-none">Financials</a></li>
+                        <li><a href="../about/index.html" class="text-light text-decoration-none">About</a></li>
+                        <li><a href="../faq/index.html" class="text-light text-decoration-none">FAQs</a></li>
+                        <li><a href="../contact/index.html" class="text-light text-decoration-none">Contact</a></li>
                     </ul>
                 </div>
 
@@ -244,15 +259,30 @@
                 <div class="col-lg-2 col-md-6 mb-4">
                     <h6 class="fw-bold">Legal</h6>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
-                        <li><a href="#" class="text-light text-decoration-none">Terms of Service</a></li>
-                        <li><a href="#" class="text-light text-decoration-none">Cookie Policy</a></li>
-                        <li><a href="#" class="text-light text-decoration-none">Compliance</a></li>
+                        <li><a href="../policies/privacy_policy.html" class="text-light text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="../policies/cookie_policy.html" class="text-light text-decoration-none">Cookie Policy</a></li>
+                        <li><a href="../policies/terms_and_conditions.html" class="text-light text-decoration-none">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
 
             <hr class="my-4">
+
+            <!-- Company Registration Info -->
+            <div class="row mb-3">
+                <div class="col-12">
+                    <div class="small">
+                        <p class="mb-2">Trumpo.com is owned and operated by Trumpo Ltd.</p>
+                        <p class="mb-2">Trumpo Limited is registered with the UK Information Commissioner's Office. Registration No: <strong>ZA314481</strong></p>
+                        <p class="mb-0">
+                            <strong>Registered office:</strong> Block 1 G82, Alderley Park, Congleton Road, Nether Alderley, Macclesfield, SK10 4TG. 
+                            <strong>Company No:</strong> 05616811. Registered in England and Wales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
 
             <!-- Bottom Row -->
             <div class="row align-items-center">

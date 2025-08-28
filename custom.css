@@ -67,6 +67,14 @@
     color: var(--bs-primary) !important;
 }
 
+.dropdown-menu {
+    border-color: solid 1px var(--bs-light);
+}
+
+/* Ensure smooth scrolling with fixed navbar */
+html {
+    scroll-padding-top: 100px;
+}
 
 /* Forms */
 .form-control {
@@ -120,7 +128,6 @@
 
 .large-image {
     width: 5rem !important;
-    /* Same as font-size of icons */
     height: 5rem !important;
     max-width: 5rem !important;
 }
@@ -136,18 +143,26 @@
     color: var(--bs-primary);
 }
 
+.bg-orange {
+    background-color: var(--bs-primary);
+}
+
 #side-nav .nav-link {
     border-bottom: 1px solid var(--clr-surface-a10);
     padding: 10px 0;
 }
 
-#side-nav {
-    position: sticky;
-    top: 100px;
-    /* Adjust this value based on your navbar height */
-    height: fit-content;
-    max-height: calc(100vh - 120px);
-    overflow-y: auto;
+
+/* Turn ON sticky positioning for large screens (992px and up) */
+@media (min-width: 992px) {
+    #side-nav {
+        position: sticky;
+        top: 100px;
+        /* navbar height + desired spacing */
+        height: fit-content;
+        max-height: calc(100vh - 120px);
+        overflow-y: auto;
+    }
 }
 
 

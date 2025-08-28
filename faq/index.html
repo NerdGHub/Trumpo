@@ -25,9 +25,8 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark shadow-sm navbar-expand-lg fixed-top">
+        <nav class="navbar shadow-sm navbar-expand-md fixed-top navbar-dark">
             <div class="container">
-
                 <!-- Left -->
                 <div class="d-flex align-items-center">
                     <a href="../index.html" class="navbar-brand">
@@ -36,55 +35,56 @@
                 </div>
 
                 <!-- Toggler for small screens -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
                     aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon text-light"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <!-- Collapsible content -->
                 <div class="collapse navbar-collapse" id="mainNavbar">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto align-items-start align-items-md-center">
                         <li class="nav-item px-2">
                             <a class="nav-link" href="../index.html">Home</a>
                         </li>
 
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="../how_it_works/index.html">How It Works</a>
+                        <!-- Platform Dropdown -->
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="platformDropdown" role="button" 
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                                Platform
+                            </a>
+                            <ul class="dropdown-menu border-1 border-md-0" aria-labelledby="platformDropdown">
+                                <li><a class="dropdown-item" href="../how_it_works/index.html">How It Works</a></li>
+                                <li><a class="dropdown-item" href="../earn_BiPS/index.html">Earn BiPS</a></li>
+                                <li><a class="dropdown-item" href="../refer_and_onboard/index.html">Refer & Onboard</a></li>
+                                <li><a class="dropdown-item" href="../financials/index.html">Financials</a></li>
+                            </ul>
                         </li>
 
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="../earn_bips/index.html">Earn BIPS</a>
+                        <!-- Support Dropdown -->
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="supportDropdown" role="button" 
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                                Support
+                            </a>
+                            <ul class="dropdown-menu border-1 border-md-0" aria-labelledby="supportDropdown">
+                                <li><a class="dropdown-item" href="../about/index.html">About</a></li>
+                                <li><a class="dropdown-item" href="../faq/index.html">FAQs</a></li>
+                                <li><a class="dropdown-item" href="../contact/index.html">Contact</a></li>
+                            </ul>
                         </li>
 
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="../refer_and_onboard/index.html">Refer & Onboard</a>
+                        <li class="nav-item m-2">
+                            <a class="btn btn-primary rounded-pill px-4" href="https://trumpo.com">Login</a>
                         </li>
-
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="../financials/index.html">Financials</a>
-                        </li>
-
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="../about/index.html">About</a>
-                        </li>
-
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="index.html">FAQs</a>
-                        </li>
-
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="../contact/index.html">Contact</a>
-                        </li>
-
                     </ul>
                 </div>
-
             </div>
         </nav>
     </header>
 
     <div class="container mt-5 pt-5">
-        <div class="row">
+        <div class="row my-5">
             <div class="col-md-4 pe-3">
                 <h1 class="orange">Frequently Asked Questions</h1>
                 <p>Find answers to common questions about Trumpo.com.</p>
@@ -94,60 +94,77 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                How do BIPS work?
+                                <strong>How do BiPS work?</strong>
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#FAQAccordion">
                             <div class="accordion-body">
-                                <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <p>
+                                    The BiPS Exchange Token is a digital currency tacitly referenced to property and assets. It is an unregulated Exchange Token. The BiPS Exchange Token is used to securely remit, store or trade globally on blockchain Token exchanges. This may include Fiat (GBP, USD, Euro+++) or other digital currencies, using either BiPS or other Ethereum digital wallet.
+                                </p>
+                                <p>
+                                    You can buy any amount of BiPS and send them globally in under a second, with a transaction fee of just one penny.
+                                </p>
+                                <p>
+                                    95% of the value of BiPS is used by the BiPS Foundation to purchase real-world assets like property and commodities. These assets are held permanently to back the currency, giving BiPS intrinsic value and stability.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Is Trumpo.com regulated?
+                                <strong>Is Trumpo.com regulated?</strong>
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#FAQAccordion">
                             <div class="accordion-body">
-                                <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <p>
+                                    There is no requirement for Trumpo to be regulated by the FCA or any other regulator. Trumpo acts as an aggregator for referrals. Any referrals for regulated business such as a mortgage or loan, would be written under the regulatory status of the recipient.
+                                </p>
+                                <p>
+                                    Trumpo Limited is registered with the UK Information Commissioner's Office. Registration No: ZA314481
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Can I track my referrals?
+                                <strong>Can I track my referrals?</strong>
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#FAQAccordion">
                             <div class="accordion-body">
-                                <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <p>
+                                    Yes. Once you have submitted a referral, it is available for review within the <strong>TrumpoMatrix</strong> dashboard. This will provide full oversight of you business and more importantly allow you to track the outcome of your referrals.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                Do I need to be a business to join?
+                                <strong>Do I need to be a business to join?</strong> 
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#FAQAccordion">
                             <div class="accordion-body">
-                                <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <p>
+                                    Trumpo is intended to be used by professionals and as such is not open to the general public. 
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                How is Bitcoin used in your model?
+                                <strong>How is Bitcoin used in your model?</strong>
                             </button>
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#FAQAccordion">
                             <div class="accordion-body">
-                                <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                Trumpo Ltd holds Bitcoin instead of cash in its balance sheet reserves. we do this o seek inflation-resilient, capital-appreciating reserves.
                             </div>
                         </div>
                     </div>
@@ -162,59 +179,76 @@
                 <!-- Company Info -->
                 <div class="col-lg-6 col-md-6 mb-4">
                     <h5 class="fw-bold">Trumpo.com</h5>
-                    <p>Earn BIPS by referring clients to verified platforms, professionals, and funds. Built for
-                            affiliates,
-                            advisors, and digital pioneers.</p>
+                    <p>Be rewarded in BIPS for referring clients to verified platforms, professionals, and funds. Built for
+                        affiliates, advisors, and digital pioneers.</p>
+					<p>This website is for <strong>professional use only</strong>.</p>	
                     <div class="d-flex gap-3 justify">
                         <a href="https://www.linkedin.com/company/trumpo-matrix/" class="bi bi-linkedin text-light text-decoration-none fs-1"></a>
                         <a href="https://x.com/trumpowhale" class="bi bi-twitter-x text-light text-decoration-none fs-1"></a>
                     </div>
-                    </div>
-
-                    <!-- Quick Links -->
-                    <div class="col-lg-2 col-md-6 mb-4">
-                        <h6 class="fw-bold">Platform</h6>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-light text-decoration-none">How it Works</a></li>
-                            <li><a href="#" class="text-light text-decoration-none">Earn BIPS</a></li>
-                            <li><a href="#" class="text-light text-decoration-none">Verified Partners</a></li>
-                            <li><a href="#" class="text-light text-decoration-none">Pricing</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Support -->
-                    <div class="col-lg-2 col-md-6 mb-4">
-                        <h6 class="fw-bold">Support</h6>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-light text-decoration-none">Help Center</a></li>
-                            <li><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
-                            <li><a href="#" class="text-light text-decoration-none">API Docs</a></li>
-                            <li><a href="#" class="text-light text-decoration-none">Status</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Legal -->
-                    <div class="col-lg-2 col-md-6 mb-4">
-                        <h6 class="fw-bold">Legal</h6>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
-                            <li><a href="#" class="text-light text-decoration-none">Terms of Service</a></li>
-                            <li><a href="#" class="text-light text-decoration-none">Cookie Policy</a></li>
-                            <li><a href="#" class="text-light text-decoration-none">Compliance</a></li>
-                        </ul>
-                    </div>
                 </div>
 
-                <hr class="my-4">
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="fw-bold">Platform</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="../how_it_works/index.html" class="text-light text-decoration-none">How it Works</a></li>
+                        <li><a href="../earn_BiPS/index.html" class="text-light text-decoration-none">Earn BiPS</a></li>
+                        <li><a href="../refer_and_onboard/index.html" class="text-light text-decoration-none">Refer & Onboard</a></li>
+                        <li><a href="../financials/index.html" class="text-light text-decoration-none">Financials</a></li>
+                        <li><a href="../about/index.html" class="text-light text-decoration-none">About</a></li>
+                        <li><a href="../faq/index.html" class="text-light text-decoration-none">FAQs</a></li>
+                        <li><a href="../contact/index.html" class="text-light text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
 
-                <!-- Bottom Row -->
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <p class="mb-0 small">&copy; 2025 Trumpo.com. All rights reserved.</p>
+                <!-- Support -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="fw-bold">Support</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Help Center</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">API Docs</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Status</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="fw-bold">Legal</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="../policies/privacy_policy.html" class="text-light text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="../policies/cookie_policy.html" class="text-light text-decoration-none">Cookie Policy</a></li>
+                        <li><a href="../policies/terms_and_conditions.html" class="text-light text-decoration-none">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <!-- Company Registration Info -->
+            <div class="row mb-3">
+                <div class="col-12">
+                    <div class="small">
+                        <p class="mb-2">Trumpo.com is owned and operated by Trumpo Ltd.</p>
+                        <p class="mb-2">Trumpo Limited is registered with the UK Information Commissioner's Office. Registration No: <strong>ZA314481</strong></p>
+                        <p class="mb-0">
+                            <strong>Registered office:</strong> Block 1 G82, Alderley Park, Congleton Road, Nether Alderley, Macclesfield, SK10 4TG. 
+                            <strong>Company No:</strong> 05616811. Registered in England and Wales.
+                        </p>
                     </div>
-                    <div class="col-md-6 text-md-end">
-                        <span class="small">Secure • Verified • Trusted</span>
-                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Bottom Row -->
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0 small">&copy; 2025 Trumpo.com. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <span class="small">Secure • Verified • Trusted</span>
                 </div>
             </div>
         </div>
